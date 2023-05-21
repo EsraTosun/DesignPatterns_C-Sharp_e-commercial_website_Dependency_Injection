@@ -10,8 +10,6 @@ namespace ConsoleApp_e_commerce
     class UserTransacions
     {
         User user = new User();
-        Seller seller = new Seller();
-        Customer customer = new Customer();
         int transaction;
 
         public static UserTransacions userTransacions = new UserTransacions();  

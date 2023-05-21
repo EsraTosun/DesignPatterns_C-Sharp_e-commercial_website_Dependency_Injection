@@ -12,7 +12,12 @@ namespace ConsoleApp_e_commerce
 
         public static  void MyBasketORFavoritesAdd()
         {
-            Products products = new Products();
+          BodyChart chart = new BodyChart();
+          Brands Brands = new Brands();
+          Color Color = new Color();
+          Fabrics Fabrics = new Fabrics();
+          Patterns Patterns = new Patterns();
+          Products products = new Products(chart, Brands, Color, Fabrics, Patterns);
 
             Console.WriteLine("1 - MyBasket Add");
             Console.WriteLine("2 - Favorites Add");

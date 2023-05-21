@@ -8,15 +8,16 @@ namespace ConsoleApp_e_commerce
 {
     class Tshirt : Products    //Tişört
     {
-        public Tshirt()
-            :base()
+        public Tshirt(BodyChart bodyChart, Brands brands, Color color, Fabrics fabrics, Patterns patterns)
+            :base(bodyChart, brands, color, fabrics, patterns)
         {
 
         }
 
-        public Tshirt(int UserId, int ID, String brand, int amount, String color, String productsType,
+        public Tshirt(BodyChart bodyChart, Brands brands, Color Color, Fabrics fabrics, Patterns patterns,
+            int UserId, int ID, String brand, int amount, String color, String productsType,
             String Patterns, String Bodys, String FabricType)
-            : base(UserId, ID, brand, amount, color, productsType, Patterns, Bodys, FabricType)
+            : base(bodyChart, brands, Color, fabrics, patterns, UserId, ID, brand, amount, color, productsType, Patterns, Bodys, FabricType)
         {
 
         }

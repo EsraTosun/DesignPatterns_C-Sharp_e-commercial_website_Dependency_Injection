@@ -8,8 +8,13 @@ namespace ConsoleApp_e_commerce
 {
     class SellerProductsTransactions   //Satıcı
     {
-        static Seller seller = new Seller();
-        static User user = new User();
+        public static BodyChart chart = new BodyChart();
+        public static Brands Brands = new Brands();
+        public static Color Color = new Color();
+        public static Fabrics Fabrics = new Fabrics();
+        public static Patterns Patterns = new Patterns();
+        public static Products products = new Products(chart, Brands, Color, Fabrics, Patterns);
+        public static Seller seller = new Seller(products); 
 
         public static void SellerAccount()    //Satıcı Hesabı
         {

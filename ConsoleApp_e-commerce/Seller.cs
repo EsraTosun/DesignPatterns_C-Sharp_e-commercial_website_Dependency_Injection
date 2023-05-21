@@ -24,10 +24,23 @@ namespace ConsoleApp_e_commerce
 
         public static List<Products> productList = new List<Products>();
 
-        public static Products products = new Products();
+        public static BodyChart chart = new BodyChart();
+        public static Brands Brands = new Brands();
+        public static Color Color = new Color();
+        public static Fabrics Fabrics = new Fabrics();
+        public static Patterns Patterns = new Patterns();
+        public static Products products = new Products(chart, Brands, Color, Fabrics, Patterns);
+
         public static UserTransacions userTransacions = new UserTransacions();
 
         public static int DesiredID;
+
+        Products Products;
+        public Seller(Products Products)
+        {
+            this.Products = Products;
+        }
+
         public void AccountInformation()
         {
             UserTransacions.SellerUser();         
@@ -35,9 +48,14 @@ namespace ConsoleApp_e_commerce
 
         public void AddProduct()
         {
-            Products product = new Products();
+          BodyChart chart = new BodyChart();
+          Brands Brands = new Brands();
+          Color Color = new Color();
+          Fabrics Fabrics = new Fabrics();
+          Patterns Patterns = new Patterns();
+          Products product = new Products(chart, Brands, Color, Fabrics, Patterns);
 
-            product.productType = productsTypeFinding();
+        product.productType = productsTypeFinding();
             product.ID = productList.Count + 1000;
             Console.WriteLine("Enter the price");  //Fiyatını giriniz
             product.amount = Convert.ToInt32(Console.ReadLine());

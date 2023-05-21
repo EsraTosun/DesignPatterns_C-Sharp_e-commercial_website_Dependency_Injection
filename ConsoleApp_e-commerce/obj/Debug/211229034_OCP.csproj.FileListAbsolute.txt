@@ -1,0 +1,16 @@
+C:\Eskiler\Desktop\BAHAR DÖNEMİ\YAZILIM TASARIM ÖRÜNTÜLERİ\6. HAFTA\211229034_Esra_Tosun\211229034_OCP\211229034_OCP\ConsoleApp_e-commerce\bin\Debug\ConsoleApp_e-commerce.exe.config
+C:\Eskiler\Desktop\BAHAR DÖNEMİ\YAZILIM TASARIM ÖRÜNTÜLERİ\6. HAFTA\211229034_Esra_Tosun\211229034_OCP\211229034_OCP\ConsoleApp_e-commerce\bin\Debug\ConsoleApp_e-commerce.exe
+C:\Eskiler\Desktop\BAHAR DÖNEMİ\YAZILIM TASARIM ÖRÜNTÜLERİ\6. HAFTA\211229034_Esra_Tosun\211229034_OCP\211229034_OCP\ConsoleApp_e-commerce\bin\Debug\ConsoleApp_e-commerce.pdb
+C:\Eskiler\Desktop\BAHAR DÖNEMİ\YAZILIM TASARIM ÖRÜNTÜLERİ\6. HAFTA\211229034_Esra_Tosun\211229034_OCP\211229034_OCP\ConsoleApp_e-commerce\obj\Debug\211229034_OCP.csproj.AssemblyReference.cache
+C:\Eskiler\Desktop\BAHAR DÖNEMİ\YAZILIM TASARIM ÖRÜNTÜLERİ\6. HAFTA\211229034_Esra_Tosun\211229034_OCP\211229034_OCP\ConsoleApp_e-commerce\obj\Debug\211229034_OCP.csproj.SuggestedBindingRedirects.cache
+C:\Eskiler\Desktop\BAHAR DÖNEMİ\YAZILIM TASARIM ÖRÜNTÜLERİ\6. HAFTA\211229034_Esra_Tosun\211229034_OCP\211229034_OCP\ConsoleApp_e-commerce\obj\Debug\211229034_OCP.csproj.CoreCompileInputs.cache
+C:\Eskiler\Desktop\BAHAR DÖNEMİ\YAZILIM TASARIM ÖRÜNTÜLERİ\6. HAFTA\211229034_Esra_Tosun\211229034_OCP\211229034_OCP\ConsoleApp_e-commerce\obj\Debug\ConsoleApp_e-commerce.exe
+C:\Eskiler\Desktop\BAHAR DÖNEMİ\YAZILIM TASARIM ÖRÜNTÜLERİ\6. HAFTA\211229034_Esra_Tosun\211229034_OCP\211229034_OCP\ConsoleApp_e-commerce\obj\Debug\ConsoleApp_e-commerce.pdb
+C:\Users\esrat\Downloads\211229034_Esra_Tosun\211229034_Esra_Tosun\211229034_OCP\211229034_OCP\ConsoleApp_e-commerce\obj\Debug\211229034_OCP.csproj.AssemblyReference.cache
+C:\Users\esrat\Downloads\211229034_Esra_Tosun\211229034_Esra_Tosun\211229034_OCP\211229034_OCP\ConsoleApp_e-commerce\obj\Debug\211229034_OCP.csproj.SuggestedBindingRedirects.cache
+C:\Users\esrat\Downloads\211229034_Esra_Tosun\211229034_Esra_Tosun\211229034_OCP\211229034_OCP\ConsoleApp_e-commerce\obj\Debug\211229034_OCP.csproj.CoreCompileInputs.cache
+C:\Users\esrat\Downloads\211229034_Esra_Tosun\211229034_Esra_Tosun\211229034_OCP\211229034_OCP\ConsoleApp_e-commerce\obj\Debug\ConsoleApp_e-commerce.exe
+C:\Users\esrat\Downloads\211229034_Esra_Tosun\211229034_Esra_Tosun\211229034_OCP\211229034_OCP\ConsoleApp_e-commerce\obj\Debug\ConsoleApp_e-commerce.pdb
+C:\Users\esrat\Downloads\211229034_Esra_Tosun\211229034_Esra_Tosun\211229034_OCP\211229034_OCP\ConsoleApp_e-commerce\bin\Debug\ConsoleApp_e-commerce.exe.config
+C:\Users\esrat\Downloads\211229034_Esra_Tosun\211229034_Esra_Tosun\211229034_OCP\211229034_OCP\ConsoleApp_e-commerce\bin\Debug\ConsoleApp_e-commerce.exe
+C:\Users\esrat\Downloads\211229034_Esra_Tosun\211229034_Esra_Tosun\211229034_OCP\211229034_OCP\ConsoleApp_e-commerce\bin\Debug\ConsoleApp_e-commerce.pdb

@@ -1,0 +1,8 @@
+C:\Eskiler\Desktop\BAHAR DÖNEMİ\YAZILIM TASARIM ÖRÜNTÜLERİ\6. HAFTA\Odev\LSP\ConsoleApp_e-commerce_LSP\ConsoleApp_e-commerce\bin\Debug\ConsoleApp_e-commerce.exe.config
+C:\Eskiler\Desktop\BAHAR DÖNEMİ\YAZILIM TASARIM ÖRÜNTÜLERİ\6. HAFTA\Odev\LSP\ConsoleApp_e-commerce_LSP\ConsoleApp_e-commerce\bin\Debug\ConsoleApp_e-commerce.exe
+C:\Eskiler\Desktop\BAHAR DÖNEMİ\YAZILIM TASARIM ÖRÜNTÜLERİ\6. HAFTA\Odev\LSP\ConsoleApp_e-commerce_LSP\ConsoleApp_e-commerce\bin\Debug\ConsoleApp_e-commerce.pdb
+C:\Eskiler\Desktop\BAHAR DÖNEMİ\YAZILIM TASARIM ÖRÜNTÜLERİ\6. HAFTA\Odev\LSP\ConsoleApp_e-commerce_LSP\ConsoleApp_e-commerce\obj\Debug\ConsoleApp_e-commerce_LSP.csproj.AssemblyReference.cache
+C:\Eskiler\Desktop\BAHAR DÖNEMİ\YAZILIM TASARIM ÖRÜNTÜLERİ\6. HAFTA\Odev\LSP\ConsoleApp_e-commerce_LSP\ConsoleApp_e-commerce\obj\Debug\ConsoleApp_e-commerce_LSP.csproj.SuggestedBindingRedirects.cache
+C:\Eskiler\Desktop\BAHAR DÖNEMİ\YAZILIM TASARIM ÖRÜNTÜLERİ\6. HAFTA\Odev\LSP\ConsoleApp_e-commerce_LSP\ConsoleApp_e-commerce\obj\Debug\ConsoleApp_e-commerce_LSP.csproj.CoreCompileInputs.cache
+C:\Eskiler\Desktop\BAHAR DÖNEMİ\YAZILIM TASARIM ÖRÜNTÜLERİ\6. HAFTA\Odev\LSP\ConsoleApp_e-commerce_LSP\ConsoleApp_e-commerce\obj\Debug\ConsoleApp_e-commerce.exe
+C:\Eskiler\Desktop\BAHAR DÖNEMİ\YAZILIM TASARIM ÖRÜNTÜLERİ\6. HAFTA\Odev\LSP\ConsoleApp_e-commerce_LSP\ConsoleApp_e-commerce\obj\Debug\ConsoleApp_e-commerce.pdb

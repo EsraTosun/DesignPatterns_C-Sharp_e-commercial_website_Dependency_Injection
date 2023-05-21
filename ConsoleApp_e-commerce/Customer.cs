@@ -19,7 +19,13 @@ namespace ConsoleApp_e_commerce
     {
         public static UserTransacions userTransacions = new UserTransacions();
         public static User user = new User();
-        public static Products products = new Products();
+
+        public static BodyChart chart = new BodyChart();
+        public static Brands Brands = new Brands();
+        public static Color Color = new Color();
+        public static Fabrics Fabrics = new Fabrics();
+        public static Patterns Patterns = new Patterns();
+        public static Products products = new Products(chart,Brands,Color,Fabrics,Patterns);
 
         public static int DesiredID;
 
@@ -28,7 +34,12 @@ namespace ConsoleApp_e_commerce
         public static List<Products> myBasketList = new List<Products>();  
 
         public static int transactionID = -1;
-        static int transaction = -1;
+
+        Seller seller;
+        public Customer(Seller seller) 
+        {
+            this.seller = seller;   
+        }
 
         public void AccountInformation()
         {

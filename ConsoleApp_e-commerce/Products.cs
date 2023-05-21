@@ -32,17 +32,32 @@ namespace ConsoleApp_e_commerce
         public String Bodys;      // bedeni
         public String FabricType;          // kumaşı
 
-        int transaction;
 
+        BodyChart bodyChart;
+        Brands brands;
+        Color Color;
+        Fabrics fabrics;
+        Patterns patterns;
  
-        public Products()
+        public Products(BodyChart bodyChart,Brands brands,Color color, Fabrics fabrics, Patterns patterns)
         {
-
+            this.fabrics = fabrics;
+            this.patterns = patterns;
+            this.bodyChart = bodyChart;
+            this.brands = brands;
+            this.Color = color;
         }
 
-        public Products(int UserId,int ID,String brand,int amount, String color,String productsType,
-            String Patterns, String Bodys,String FabricType)
+        public Products(BodyChart bodyChart, Brands brands, Color Color, Fabrics fabrics, Patterns patterns,
+            int UserId, int ID, String brand, int amount, String color, String productsType,
+            String Patterns, String Bodys, String FabricType)
         {
+            this.fabrics = fabrics;
+            this.patterns = patterns;
+            this.bodyChart = bodyChart;
+            this.brands = brands;
+            this.Color = Color;
+
             this.UserID = UserId;
             this.ID = ID;
             this.brand = brand;

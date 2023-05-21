@@ -79,9 +79,14 @@ namespace ConsoleApp_e_commerce
 
         static void SavedDressData()    //Kayıtlı Ürün Veriler
         {
-           /* (int UserId, int ID, String brand, int amount, String color, String productsType,
-            String Patterns, String Bodys, String FabricType)  */
-            Products products = new Products(200,1000, 
+            BodyChart chart = new BodyChart();
+            Brands Brands = new Brands();
+            Color Color = new Color();
+            Fabrics Fabrics = new Fabrics();
+            Patterns Patterns = new Patterns();
+
+            Products products = new Products(chart, Brands, Color, Fabrics, Patterns,
+                200,1000, 
                 Enum.GetName(typeof(BrandType), 0), 
                 100, 
                 Enum.GetName(typeof(ColorType), 0), 
@@ -89,7 +94,8 @@ namespace ConsoleApp_e_commerce
                 Enum.GetName(typeof(PatternsType), 1),
                 Enum.GetName(typeof(BodyType), 2),
                 Enum.GetName(typeof(FabricType), 3));
-            Products products1 = new Products(201, 1001,
+            Products products1 = new Products(chart, Brands, Color, Fabrics, Patterns,
+                201, 1001,
                 Enum.GetName(typeof(BrandType), 0),
                 100,
                 Enum.GetName(typeof(ColorType), 3),
@@ -97,7 +103,8 @@ namespace ConsoleApp_e_commerce
                 Enum.GetName(typeof(PatternsType), 4),
                 Enum.GetName(typeof(BodyType), 2),
                 Enum.GetName(typeof(FabricType), 3));
-            Products products2 = new Products(202, 1002,
+            Products products2 = new Products(chart, Brands, Color, Fabrics, Patterns,
+                202, 1002,
                 Enum.GetName(typeof(BrandType), 3),
                 100,
                 Enum.GetName(typeof(ColorType), 1),
@@ -105,7 +112,8 @@ namespace ConsoleApp_e_commerce
                 Enum.GetName(typeof(PatternsType), 1),
                 Enum.GetName(typeof(BodyType), 1),
                 Enum.GetName(typeof(FabricType), 1));
-            Products products3 = new Products(203, 1003,
+            Products products3 = new Products(chart, Brands, Color, Fabrics, Patterns,
+                203, 1003,
                 Enum.GetName(typeof(BrandType), 2),
                 100,
                 Enum.GetName(typeof(ColorType), 2),
@@ -113,7 +121,8 @@ namespace ConsoleApp_e_commerce
                 Enum.GetName(typeof(PatternsType), 2),
                 Enum.GetName(typeof(BodyType), 2),
                 Enum.GetName(typeof(FabricType), 2));
-            Products products4 = new Products(200, 1004,
+            Products products4 = new Products(chart, Brands, Color, Fabrics, Patterns,
+                200, 1004,
                 Enum.GetName(typeof(BrandType), 0),
                 100,
                 Enum.GetName(typeof(ColorType), 3),
@@ -131,7 +140,14 @@ namespace ConsoleApp_e_commerce
 
         static void SavedTshirtData()    //Kayıtlı Ürün Veriler
         {
-            Products products = new Products(201, 1005,
+            BodyChart chart = new BodyChart();
+            Brands Brands = new Brands();
+            Color Color = new Color();
+            Fabrics Fabrics = new Fabrics();
+            Patterns Patterns = new Patterns();
+
+            Products products = new Products(chart, Brands, Color, Fabrics, Patterns,
+                201, 1005,
                 Enum.GetName(typeof(BrandType), 1),
                 100,
                 Enum.GetName(typeof(ColorType), 2),
@@ -139,7 +155,8 @@ namespace ConsoleApp_e_commerce
                 Enum.GetName(typeof(PatternsType), 1),
                 Enum.GetName(typeof(BodyType), 1),
                 Enum.GetName(typeof(FabricType), 2));
-            Products products1 = new Products(202, 1006,
+            Products products1 = new Products(chart, Brands, Color, Fabrics, Patterns,
+                202, 1006,
                 Enum.GetName(typeof(BrandType), 3),
                 100,
                 Enum.GetName(typeof(ColorType), 1),
@@ -147,7 +164,8 @@ namespace ConsoleApp_e_commerce
                 Enum.GetName(typeof(PatternsType), 3),
                 Enum.GetName(typeof(BodyType), 1),
                 Enum.GetName(typeof(FabricType), 2));
-            Products products2 = new Products(203, 1007,
+            Products products2 = new Products(chart, Brands, Color, Fabrics, Patterns,
+                203, 1007,
                 Enum.GetName(typeof(BrandType), 3),
                 100,
                 Enum.GetName(typeof(ColorType), 3),
@@ -155,7 +173,8 @@ namespace ConsoleApp_e_commerce
                 Enum.GetName(typeof(PatternsType), 2),
                 Enum.GetName(typeof(BodyType), 1),
                 Enum.GetName(typeof(FabricType), 1));
-            Products products3 = new Products(200, 1008,
+            Products products3 = new Products(chart, Brands, Color, Fabrics, Patterns,
+                200, 1008,
                 Enum.GetName(typeof(BrandType), 0),
                 100,
                 Enum.GetName(typeof(ColorType), 2),
@@ -163,7 +182,8 @@ namespace ConsoleApp_e_commerce
                 Enum.GetName(typeof(PatternsType), 3),
                 Enum.GetName(typeof(BodyType), 3),
                 Enum.GetName(typeof(FabricType), 1));
-            Products products4 = new Products(201, 1009,
+            Products products4 = new Products(chart, Brands, Color, Fabrics, Patterns,
+                201, 1009,
                 Enum.GetName(typeof(BrandType), 1),
                 100,
                 Enum.GetName(typeof(ColorType), 1),
@@ -181,8 +201,14 @@ namespace ConsoleApp_e_commerce
 
         static void SavedPantsData()    //Kayıtlı Ürün Veriler
         {
+            BodyChart chart = new BodyChart();
+            Brands Brands = new Brands();
+            Color Color = new Color();
+            Fabrics Fabrics = new Fabrics();
+            Patterns Patterns = new Patterns();
 
-            Products products = new Products(202, 1010,
+            Products products = new Products(chart, Brands, Color, Fabrics, Patterns,
+                202, 1010,
                 Enum.GetName(typeof(BrandType), 1),
                 100,
                 Enum.GetName(typeof(ColorType), 2),
@@ -190,7 +216,8 @@ namespace ConsoleApp_e_commerce
                 Enum.GetName(typeof(PatternsType), 3),
                 Enum.GetName(typeof(BodyType), 2),
                 Enum.GetName(typeof(FabricType), 1));
-            Products products1 = new Products(203, 1011,
+            Products products1 = new Products(chart, Brands, Color, Fabrics, Patterns,
+                203, 1011,
                 Enum.GetName(typeof(BrandType), 1),
                 100,
                 Enum.GetName(typeof(ColorType), 1),
@@ -198,7 +225,8 @@ namespace ConsoleApp_e_commerce
                 Enum.GetName(typeof(PatternsType), 1),
                 Enum.GetName(typeof(BodyType), 1),
                 Enum.GetName(typeof(FabricType), 1));
-            Products products2 = new Products(200, 1012,
+            Products products2 = new Products(chart, Brands, Color, Fabrics, Patterns,
+                200, 1012,
                 Enum.GetName(typeof(BrandType), 2),
                 100,
                 Enum.GetName(typeof(ColorType), 2),
@@ -206,7 +234,8 @@ namespace ConsoleApp_e_commerce
                 Enum.GetName(typeof(PatternsType), 2),
                 Enum.GetName(typeof(BodyType), 2),
                 Enum.GetName(typeof(FabricType), 2));
-            Products products3 = new Products(201, 1013,
+            Products products3 = new Products(chart, Brands, Color, Fabrics, Patterns,
+                201, 1013,
                 Enum.GetName(typeof(BrandType), 3),
                 100,
                 Enum.GetName(typeof(ColorType), 3),
@@ -214,7 +243,8 @@ namespace ConsoleApp_e_commerce
                 Enum.GetName(typeof(PatternsType), 3),
                 Enum.GetName(typeof(BodyType), 3),
                 Enum.GetName(typeof(FabricType), 4));
-            Products products4 = new Products(202, 1014,
+            Products products4 = new Products(chart, Brands, Color, Fabrics, Patterns,
+                202, 1014,
                 Enum.GetName(typeof(BrandType), 4),
                 100,
                 Enum.GetName(typeof(ColorType), 4),
